@@ -1,0 +1,15 @@
+name: dart_html_utils
+description: Miscellaneous utility code for Dart for the Web.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  dartbag:
+    git: https://github.com/jamesderlin/dartbag
+  logging: ^1.0.2
+
+dev_dependencies:
+  test: ^1.16.0
