@@ -1,6 +1,7 @@
 // Test with `dart test --platform={chrome,firefox}`
 
 @TestOn('browser')
+library;
 
 import 'dart:html' as html;
 
