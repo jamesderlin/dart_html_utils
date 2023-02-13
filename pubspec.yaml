@@ -7,8 +7,7 @@ environment:
   sdk: '>=2.17.0 <3.0.0'
 
 dependencies:
-  dartbag:
-    git: https://github.com/jamesderlin/dartbag
+  dartbag: ^0.6.0
   logging: ^1.0.2
 
 dev_dependencies:

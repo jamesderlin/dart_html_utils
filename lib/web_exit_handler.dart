@@ -11,7 +11,7 @@ typedef VoidCallback = void Function();
 ///
 /// Callbacks will be executed in reverse order of registration.
 class ExitHandler {
-  // ignore: prefer_collection_literals
+  // ignore: prefer_collection_literals, https://github.com/dart-lang/linter/issues/1649
   final _cleanupCallbacks = LinkedHashMap<Object, VoidCallback>();
 
   ExitHandler._() {
